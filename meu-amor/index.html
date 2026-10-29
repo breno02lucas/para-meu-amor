@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0817" />
+    <meta name="description" content="Um recap dos nossos primeiros quatro meses." />
+    <title>Antes de sermos nós — nosso recap</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <main class="app" aria-label="Nosso memorial em formato de stories">
+        <div class="story" id="story">
+            <!-- Barrinhas do recap: criadas automaticamente de acordo com as telas. -->
+            <nav class="progress" id="progress" aria-label="Capítulos do recap"></nav>
+
+            <header class="topbar">
+                <div class="identity"><span class="identity-dot"></span> NÓS <span class="identity-sub">/ RECAP
+                        2026</span></div>
+                <button class="control" id="pause-btn" type="button" aria-label="Pausar stories"
+                    title="Pausar ou continuar">Ⅱ</button>
+            </header>
+
+            <!-- 00 — Carta e vídeo de introdução -->
+            <section class="screen screen--letter is-active" aria-label="Carta de abertura" aria-hidden="false">
+                <div class="texture texture--pink"></div>
+                <div class="screen-inner letter-inner" id="letter-scene">
+                    <div class="letter-head">
+                        <p class="eyebrow">Oi amor, hoje é dia 29. O dia em que, no escuro do seu quarto, grudadinho em
+                            você, te pedi em namoro.</p>
+                        <h1 class="title title--serif"> De quando eu <br> comecei a <br><i>te amar.</i></h1>
+                        <p class="support">Decidi fazer um memorial de alguns momentos importantes para que possamos ver
+                            e rever todas as vezes que buscarmos nos lembrar de como começamos.</p>
+                    </div>
+
+                    <div class="envelope-wrap" id="envelope-wrap">
+                        <button type="button" class="envelope" id="open-letter" aria-label="Abrir a carta">
+                            <span class="envelope-sheet"><span>para você, ♡</span></span>
+                            <span class="envelope-front"></span>
+                            <span class="envelope-flap"></span>
+                            <span class="envelope-seal">♡</span>
+                        </button>
+                    </div>
+
+                    <div class="letter-video" id="letter-video">
+                        <div class="video-box" id="video-box">
+                            <img src="assets/photos/photo1.jpeg" alt="">
+                        </div>
+                        <button class="pill-button" type="button" data-next>Começar nosso recap <span>↗</span></button>
+                    </div>
+
+                    <p class="caption-bottom">feito com amor, para ser visto muitas vezes.</p>
+                </div>
+            </section>
+
+            <!-- 01 — Capa estilo recap musical -->
+            <section class="screen screen--cover" aria-label="Nosso recap" aria-hidden="true">
+                <div class="cover-orbit orbit-one"></div>
+                <div class="cover-orbit orbit-two"></div>
+                <div class="cover-glow"></div>
+                <div class="screen-inner">
+                    <p class="eyebrow">NOSSA HISTÓRIA · EDIÇÃO ESPECIAL</p>
+                    <div class="cover-center">
+                        <span class="cover-mini">UM RECAP DE</span>
+                        <div class="cover-number">04<span class="cover-asterisk">✳</span></div>
+                        <h2 class="cover-title">MESES<br />DE <em>NÓS.</em></h2>
+                        <p class="cover-description">Os melhores momentos não cabem numa playlist. Mas merecem ser
+                            lembrados.</p>
+                    </div>
+                    <div class="slide-bottom"><span>DESDE O NOSSO PRIMEIRO DIA</span><span>01 / 07</span></div>
+                </div>
+            </section>
+
+            <!-- 02 — 3 meses + 1 mês oficial -->
+            <section class="screen screen--numbers" aria-label="Nossa linha do tempo" aria-hidden="true">
+                <div class="numbers-shape"></div>
+                <div class="screen-inner">
+                    <p class="eyebrow">MINHA PRIMEIRA POESIA PARA VOCÊ</p>
+                    <div>
+                        <h2 class="section-title">Cartografando<br /><em>teu corpo</em></h2>
+                        <div class="number-card">
+                            <span class="num-explain">
+                                Seus olhos escuros, <br>
+                                seu encanto singelo. <br>
+
+                                Sua voz me chama <br>
+                                sem romper o silêncio. <br>
+
+                                Nossos rostos,<br>
+                                suspensos no tempo.<br>
+
+                                Na cama, em curvas sedentas<br>
+                                minha mão vaga em alento.<br>
+
+                                Buscando decorar o caminho,<br>
+                                te contorno.<br>
+
+                                Guardo na memória<br>
+                                esse contorno e seu sorriso,<br>
+                                na esperança de um dia<br>
+                                vagar sem juízo <br>
+                                em sua vastidão.<br>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="slide-bottom"><span>Um mês depois do Spitfire e você pairando na minha mente
+                        </span><span>26 / 07</span></div>
+                </div>
+            </section>
+
+            <!-- 03 — Primeiras fotos e primeiro date -->
+            <section class="screen screen--photos" aria-label="Nossas primeiras vezes" aria-hidden="true">
+                <div class="screen-inner">
+                    <p class="eyebrow">AS PRIMEIRAS VEZES</p>
+                    <h2 class="section-title">Algumas coisas<br />viram <em>memória.</em></h2>
+                    <div class="polaroid-grid">
+                        <figure class="polaroid polaroid--one">
+                            <div class="photo-surface photo-surface--one">
+                                <img src="assets/photos/photo2.jpeg" alt="Nossa primeira foto juntos" loading="lazy" />
+                                <span class="photo-fallback">A NOSSA<br />PRIMEIRA FOTO</span>
+                            </div>
+                            <figcaption>a primeira foto ♡</figcaption>
+                        </figure>
+                        <figure class="polaroid polaroid--two">
+                            <div class="photo-surface photo-surface--two">
+                                <img src="assets/photos/photo3.jpeg" alt="Nosso primeiro encontro" loading="lazy" />
+                                <span class="photo-fallback">EU PROVANDO<br />GUIOZA</span>
+                            </div>
+                            <figcaption>#GuiozaNuncaMais ✳</figcaption>
+                        </figure>
+                    </div>
+                    <p class="memory-note">“Você sabia que foram trocadas <br> 3.040 mensagens até nos chamarmos de
+                        amor?” <br>
+                        Foi no dia 13 de agosto, te desejei boa noite com "boa noite meu amor" e você me acordo com o
+                        seu "bom dia meu amor" <br>
+
+                    </p>
+                    <div class="slide-bottom"><span>PRIMEIROS CAPÍTULOS</span><span>03 / 07</span></div>
+                </div>
+            </section>
+
+            <!-- 04 — Primeira viagem -->
+            <section class="screen screen--trip" aria-label="Nossa primeira viagem" aria-hidden="true">
+                <div class="trip-halo"></div>
+                <div class="screen-inner">
+                    <p class="eyebrow">O MUNDO FICOU MAIOR</p>
+                    <h2 class="section-title">Nosso primeiro<br /><em>lugar no mundo.</em></h2>
+                    <div class="travel-card">
+                        <div class="travel-photo">
+                            <img src="assets/photos/photo4.jpeg" alt="Fotografia da nossa primeira viagem"
+                                loading="lazy" />
+                            <span class="photo-fallback">NOSSA PRIMEIRA VIAGEM<br /><small>coloque sua foto
+                                    aqui</small></span>
+                        </div>
+                        <div class="travel-caption"><span>VIAGEM À BNU</span><span>♥</span></div>
+                    </div>
+                    <p class="memory-note memory-note--dark">“Você sabia que aqui eu já queria dizer o quanto já te
+                        amava?”</p>
+                    <div class="slide-bottom"><span>UMA VIAGEM, MIL LEMBRANÇAS</span><span>29 / 08</span></div>
+                </div>
+            </section>
+
+            <!-- 05 — Poesia -->
+            <section class="screen screen--poem" aria-label="Poesias para você" aria-hidden="true">
+                <div class="poem-glow"></div>
+                <div class="screen-inner">
+                    <p class="eyebrow">FORAM 9.880 MENSAGENS ATÉ O PRIMEIRO "TE AMO"</p>
+                    <h2 class="section-title">Então eu<br /><em>escrevi.</em></h2>
+                    <div class="poem-page">
+                        <span class="poem-mark">“</span>
+                        <p>
+                            Radiante, <br>
+                            como um céu sem nuvens<br>
+                            em um dia de sol,<br>
+                            num calor delirante<br>
+                            em que só você<br>
+                            <i>sabe controlar.</i><br>
+                        </p>
+                        <span class="poem-signature">— um poema seu</span>
+                    </div>
+                    <div class="slide-bottom"><span>MINHA POESIA TÊM SENTIDO EM VOCÊ</span><span>29 / 09</span></div>
+                </div>
+            </section>
+
+            <!-- 06 — Música compartilhada -->
+            <section class="screen screen--music" aria-label="Nossa trilha sonora" aria-hidden="true">
+                <div class="music-wave wave-one"></div>
+                <div class="music-wave wave-two"></div>
+                <div class="screen-inner">
+                    <p class="eyebrow">A NOSSA TRILHA SONORA</p>
+                    <h2 class="section-title">Se a gente fosse<br />uma <em>música...</em></h2>
+                    <div class="record-space">
+                        <div class="record">
+                            <div class="record-label"><span>u + me</span><strong> = &#60;3 </strong><span>♡</span></div>
+                        </div>
+                    </div>
+                    <div class="song-info">
+                        <div><span class="small-label">FAIXA FAVORITA</span>
+                            <h3>u + me = &#60;3</h3>
+                            <p>Olivia Rodrigo</p>
+                        </div>
+                        <button type="button" class="play-button" id="play-song"
+                            aria-label="Tocar nossa música">▶</button>
+                    </div>
+                    <p class="lyric">
+                        “Carve our names into the car seat leather. You plus me equals a heart forever. A heart forever,
+                        oh”
+                    </p>
+                    <p class="audio-feedback" id="audio-feedback" aria-live="polite"></p>
+                    <audio id="our-audio" preload="none" src="assets/audios/song.mp3"></audio>
+                    <div class="slide-bottom"><span>ESSA SEMPRE VAI SER NOSSA</span><span>29 / 10</span></div>
+                </div>
+            </section>
+
+            <!-- 07 — Epílogo audiovisual: poema recitado por Maria Bethânia -->
+            <section class="screen screen--final" aria-label="Um último presente: poema em vídeo" aria-hidden="true">
+                <div class="final-video-stage" id="final-video-stage">
+                    <video id="final-video" class="final-video" playsinline preload="metadata"
+                        poster="assets/capa-poema.jpg" aria-label="Vídeo do poema recitado por Maria Bethânia">
+                        <source src="assets/videos/poesia.mp4" type="video/mp4" />
+                        Seu navegador não suporta reprodução de vídeo.
+                    </video>
+
+                    <div class="final-video-intro" id="final-video-intro">
+                        <p class="final-kicker">UM ÚLTIMO PRESENTE · PARA VOCÊ</p>
+                        <h2>Há coisas que<br />só a <em>poesia</em><br />consegue dizer.</h2>
+                        <p class="final-video-description">Quero terminar este recap com palavras que também são nossas.
+                        </p>
+                        <button class="final-play" id="final-play" type="button" aria-label="Reproduzir o poema">
+                            <span aria-hidden="true">▶</span> Assistir ao poema
+                        </button>
+                        <p class="final-video-error" id="final-video-error" role="status"></p>
+                    </div>
+
+                    <div class="final-video-outro" id="final-video-outro" aria-live="polite">
+                        <span class="final-kicker">O FIM DO NOSSO PRIMEIRO RECAP</span>
+                        <h2>Isso é só<br />o <em>começo.</em> ♡</h2>
+                        <p>Que a gente continue colecionando histórias para voltar aqui.</p>
+                        <div class="final-outro-actions">
+                            <button class="pill-button pill-button--light" id="replay-poem" type="button">Rever o poema
+                                ↻</button>
+                            <button class="final-restart" id="restart" type="button">Rever nossa história ↺</button>
+                        </div>
+                    </div>
+
+                    <span class="final-corner-label">NÓS · RECAP 2026</span>
+                </div>
+            </section>
+
+            <button class="edge edge--left" id="prev-btn" type="button"
+                aria-label="Story anterior"><span>‹</span></button>
+            <button class="edge edge--right" id="next-btn" type="button"
+                aria-label="Próximo story"><span>›</span></button>
+            <div class="footer-controls"><button type="button" id="footer-prev" aria-label="Voltar">←</button><span
+                    id="counter">00 / 07</span><button type="button" id="footer-next" aria-label="Avançar">→</button>
+            </div>
+        </div>
+        <p class="desktop-hint">Use as setas ← → ou toque nas laterais para navegar.</p>
+    </main>
+
+    <script>
+        // ===========================================
+        // CONTROLES DO RECAP — sem bibliotecas externas
+        // ===========================================
+        const story = document.querySelector('#story');
+        const screens = [...document.querySelectorAll('.screen')];
+        const progress = document.querySelector('#progress');
+        const counter = document.querySelector('#counter');
+        const pauseBtn = document.querySelector('#pause-btn');
+        const song = document.querySelector('#our-audio');
+        const playSongBtn = document.querySelector('#play-song');
+        const audioFeedback = document.querySelector('#audio-feedback');
+        const introVideo = document.querySelector('#intro-video');
+        const finalVideo = document.querySelector('#final-video');
+        const finalStage = document.querySelector('#final-video-stage');
+        const finalPlay = document.querySelector('#final-play');
+        const finalVideoError = document.querySelector('#final-video-error');
+
+        const bars = screens.map((_, i) => {
+            const button = document.createElement('button');
+            button.className = 'progress-item';
+            button.type = 'button';
+            button.setAttribute('aria-label', `Ir ao story ${i + 1}`);
+            button.innerHTML = '<span class="progress-fill"></span>';
+            button.addEventListener('click', () => showStory(i));
+            progress.appendChild(button);
+            return button.querySelector('.progress-fill');
+        });
+
+        let current = 0;
+        let elapsed = 0;
+        let lastFrame = performance.now();
+        let paused = false;
+        const duration = 8500; // tempo em milissegundos de cada story
+
+        function showStory(index) {
+            if (index < 0 || index >= screens.length) return;
+            if (current === 6 && index !== 6) {
+                song.pause();
+                playSongBtn.textContent = '▶';
+            }
+            // Interrompe o vídeo do epílogo quando saímos da última tela.
+            if (current === screens.length - 1 && index !== current) {
+                finalVideo.pause();
+            }
+            if (index === screens.length - 1 && current !== index) {
+                finalVideo.pause();
+                finalVideo.currentTime = 0;
+                finalVideo.controls = false;
+                finalStage.classList.remove('is-playing', 'is-ended');
+                finalVideoError.textContent = '';
+            }
+            current = index;
+            elapsed = 0;
+            lastFrame = performance.now();
+            screens.forEach((screen, i) => {
+                const active = i === current;
+                screen.classList.toggle('is-active', active);
+                screen.setAttribute('aria-hidden', String(!active));
+            });
+            bars.forEach((bar, i) => {
+                bar.style.transform = `scaleX(${i < current ? 1 : 0})`;
+            });
+            counter.textContent = `${String(current).padStart(2, '0')} / ${String(screens.length - 1).padStart(2, '0')}`;
+            document.querySelector('#prev-btn').disabled = current === 0;
+            document.querySelector('#next-btn').disabled = current === screens.length - 1;
+            document.querySelector('#footer-prev').disabled = current === 0;
+            document.querySelector('#footer-next').disabled = current === screens.length - 1;
+        }
+
+        const next = () => showStory(Math.min(current + 1, screens.length - 1));
+        const prev = () => showStory(Math.max(current - 1, 0));
+
+        document.querySelector('#next-btn').addEventListener('click', next);
+        document.querySelector('#prev-btn').addEventListener('click', prev);
+        document.querySelector('#footer-next').addEventListener('click', next);
+        document.querySelector('#footer-prev').addEventListener('click', prev);
+        document.querySelectorAll('[data-next]').forEach(button => button.addEventListener('click', next));
+        document.querySelector('#restart').addEventListener('click', () => showStory(0));
+
+        pauseBtn.addEventListener('click', () => {
+            // Na tela final, o botão de pausa também controla o vídeo.
+            if (current === screens.length - 1 && !finalVideo.ended && finalStage.classList.contains('is-playing')) {
+                if (finalVideo.paused) finalVideo.play().catch(() => { });
+                else finalVideo.pause();
+                return;
+            }
+            paused = !paused;
+            pauseBtn.textContent = paused ? '▶' : 'Ⅱ';
+            pauseBtn.setAttribute('aria-label', paused ? 'Continuar stories' : 'Pausar stories');
+        });
+
+        // O primeiro story (a carta) e o último não avançam sozinhos.
+        function animate(now) {
+            const delta = Math.min(now - lastFrame, 80);
+            lastFrame = now;
+            if (!paused && current !== 0 && current !== screens.length - 1 && !document.hidden) {
+                elapsed += delta;
+                bars[current].style.transform = `scaleX(${Math.min(elapsed / duration, 1)})`;
+                if (elapsed >= duration) next();
+            }
+            requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+
+        // Interação com a carta e o vídeo de abertura.
+        document.querySelector('#open-letter').addEventListener('click', () => {
+            const scene = document.querySelector('#letter-scene');
+            if (scene.classList.contains('is-revealed')) return;
+            scene.classList.add('is-opening');
+            window.setTimeout(() => {
+                scene.classList.add('is-revealed');
+                if (introVideo) introVideo.play().catch(() => { }); // Vídeo introdutório opcional.
+            }, 850);
+        });
+
+        // Epílogo: o vídeo só começa após o toque do visitante (áudio permitido no celular).
+        async function playFinalVideo() {
+            try {
+                finalVideoError.textContent = '';
+                finalVideo.controls = true;
+                await finalVideo.play();
+            } catch (error) {
+                finalVideo.controls = false;
+                finalVideoError.textContent = 'Não foi possível abrir o vídeo. Verifique assets/poema-bethania.mp4.';
+            }
+        }
+        finalPlay.addEventListener('click', playFinalVideo);
+        document.querySelector('#replay-poem').addEventListener('click', () => {
+            finalVideo.currentTime = 0;
+            finalStage.classList.remove('is-ended');
+            playFinalVideo();
+        });
+        finalVideo.addEventListener('play', () => {
+            finalStage.classList.add('is-playing');
+            finalStage.classList.remove('is-ended');
+            pauseBtn.textContent = 'Ⅱ';
+        });
+        finalVideo.addEventListener('pause', () => {
+            if (current === screens.length - 1 && !finalVideo.ended) pauseBtn.textContent = '▶';
+        });
+        finalVideo.addEventListener('timeupdate', () => {
+            if (current === screens.length - 1 && Number.isFinite(finalVideo.duration) && finalVideo.duration > 0) {
+                bars[current].style.transform = `scaleX(${Math.min(finalVideo.currentTime / finalVideo.duration, 1)})`;
+            }
+        });
+        finalVideo.addEventListener('ended', () => {
+            finalStage.classList.add('is-ended');
+            finalVideo.controls = false;
+            bars[current].style.transform = 'scaleX(1)';
+        });
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden && !finalVideo.paused) finalVideo.pause();
+        });
+
+        // Música opcional. Coloque assets/audios/song.mp3 para ativar.
+        playSongBtn.addEventListener('click', async () => {
+            if (!song.paused) {
+                song.pause();
+                playSongBtn.textContent = '▶';
+                return;
+            }
+            try {
+                await song.play();
+                playSongBtn.textContent = 'Ⅱ';
+                audioFeedback.textContent = '';
+            } catch {
+                audioFeedback.textContent = 'Adicione assets/audios/song.mp3 para tocar a faixa.';
+            }
+        });
+        song.addEventListener('ended', () => { playSongBtn.textContent = '▶'; });
+
+        // As fotos não geram ícones de imagem quebrada caso você ainda não as tenha adicionado.
+        document.querySelectorAll('.photo-surface img, .travel-photo img').forEach(img => {
+            img.addEventListener('error', () => { img.hidden = true; });
+            img.addEventListener('load', () => { img.nextElementSibling.hidden = true; });
+            if (img.complete && img.naturalWidth === 0) img.hidden = true;
+        });
+
+        // Navegação por teclado e gesto horizontal no celular.
+        document.addEventListener('keydown', e => {
+            if (e.key === 'ArrowRight') next();
+            if (e.key === 'ArrowLeft') prev();
+            if (e.key === ' ' && e.target.tagName !== 'BUTTON' && e.target.tagName !== 'VIDEO') {
+                e.preventDefault();
+                pauseBtn.click();
+            }
+        });
+        let touchX = null;
+        story.addEventListener('touchstart', e => { touchX = e.changedTouches[0].screenX; }, { passive: true });
+        story.addEventListener('touchend', e => {
+            if (touchX === null) return;
+            const difference = e.changedTouches[0].screenX - touchX;
+            // O gesto no player de vídeo não deve trocar de story.
+            if (!e.target.closest('.final-video-stage') && Math.abs(difference) > 65) {
+                difference < 0 ? next() : prev();
+            }
+            touchX = null;
+        }, { passive: true });
+
+        showStory(0);
+    </script>
+</body>
+
+</html>
